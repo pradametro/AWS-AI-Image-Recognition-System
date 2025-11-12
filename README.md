@@ -1,4 +1,4 @@
-# ☁️ AI Image Recognition - AWS Bedrock and Rekognition - IaC with Terraform ☁️
+# ☁️ AWS AI Image Recognition System ☁️
 
 This project is built on fully serverless architecture, and leverages Amazon Rekognition to analyze images and identify objects, scenes, and concepts. The detected results are then sent to Amazon Bedrock (Titan model), which generates a clear, human-readable summary. The frontend enables users to upload images and instantly receive AI-generated descriptions.
 
