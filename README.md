@@ -1,13 +1,13 @@
 # ☁️ AWS AI Image Recognition System ☁️
 
-This project is built on fully serverless architecture, and leverages Amazon Rekognition to analyze images and identify objects, scenes, and concepts. The detected results are then sent to Amazon Bedrock (Titan model), which generates a clear, human-readable summary. The frontend enables users to upload images and instantly receive AI-generated descriptions.
+This project is built on fully serverless architecture, and leverages Amazon Rekognition to analyze images and identify objects, scenes, and concepts. The detected results are then sent to Amazon Bedrock (Titan model), which generates a clear, human readable summary. The frontend enables users to upload images and instantly receive AI generated descriptions.
 
 ---
 
 ## Features
 - Image upload interface built with HTML, CSS, and JavaScript.
 - Uses Amazon Rekognition to identify objects, people, and scenes in images.
-- Uses Amazon Bedrock (Titan model) to generate a human-readable description based on detected labels.
+- Uses Amazon Bedrock (Titan model) to generate a human readable description based on detected labels.
 - Backend powered by an AWS Lambda function written in Python.
 - Terraform automates AWS infrastructure deployment for consistency and scalability.
 - Frontend hosted on Amazon S3 for public access.
